@@ -22,7 +22,7 @@ Elements: 3
 Category: Technologies
 Elements: 5 -->
 
-ex 2
+✅ex 2
 
 HTML містить порожній список ul#ingredients
 
@@ -37,7 +37,7 @@ JavaScript містить масив рядків
   "Condiments",
 ]; -->
 
-Напиши скрипт, який для кожного елемента масиву ingredients:
+Н✅апиши скрипт, який для кожного елемента масиву ingredients:
 
 Створить окремий елемент <li>. Обов'язково використовуй метод document.createElement().
 Додасть назву інгредієнта як його текстовий вміст.
