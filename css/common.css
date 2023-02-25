@@ -10,7 +10,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: #3d3d3d;
-  color: ffa600;
+  color: #ffa600;
   font-size: 20px;
   font-weight: 700;
   line-height: 1.5;
@@ -35,4 +35,25 @@ input {
 button {
   padding: 8px 12px;
   cursor: pointer;
+}
+
+/* ex 3 */
+
+.gallery {
+  display: flex;
+  justify-content: space-between;
+
+  list-style: none;
+}
+
+.gallery__image {
+  border-radius: 15px;
+  border: 5px dashed #ffa600;
+  transition-property: border;
+  transition-duration: 250ms;
+  transition-timing-function: ease;
+}
+
+.gallery__image:hover {
+  border: 10px solid #ffa600;
 }
