@@ -9,35 +9,12 @@ HTML містить список категорій ul#categories
 ✅Для кожного элемента li.item у списку ul#categories, знайде і виведе в консоль текст заголовку елемента (тегу <h2>) і кількість елементів в категорії (усіх <li>, вкладених в нього).
 ✅Для виконання цього завдання потрібно використати метод forEach() і властивості навігації по DOM.
 
-✅В результаті, в консолі будуть виведені наступні повідомлення. -->
-
-<!-- Number of categories: 3
-
-Category: Animals
-Elements: 4
-
-Category: Products
-Elements: 3
-
-Category: Technologies
-Elements: 5 -->
-
 <!-- ✅ex 2
 
 HTML містить порожній список ul#ingredients
 
-JavaScript містить масив рядків -->
 
-<!-- const ingredients = [
-  "Potatoes",
-  "Mushrooms",
-  "Garlic",
-  "Tomatos",
-  "Herbs",
-  "Condiments",
-]; -->
-
-<!-- Н✅апиши скрипт, який для кожного елемента масиву ingredients:
+✅<!-- Напиши скрипт, який для кожного елемента масиву ingredients:
 
 Створить окремий елемент <li>. Обов'язково використовуй метод document.createElement().
 Додасть назву інгредієнта як його текстовий вміст.
@@ -52,21 +29,6 @@ JavaScript містить масив рядків -->
 
 ✅Усі елементи галереї повинні додаватися в DOM за одну операцію додавання.
 ✅Додай мінімальне оформлення галереї флексбоксами або грідами через CSS класи. -->
-
-<!-- const images = [
-  {
-    url: "https://images.pexels.com/photos/140134/pexels-photo-140134.jpeg?dpr=2&h=750&w=1260",
-    alt: "White and Black Long Fur Cat",
-  },
-  {
-    url: "https://images.pexels.com/photos/213399/pexels-photo-213399.jpeg?dpr=2&h=750&w=1260",
-    alt: "Orange and White Koi Fish Near Yellow Koi Fish",
-  },
-  {
-    url: "https://images.pexels.com/photos/219943/pexels-photo-219943.jpeg?dpr=2&h=750&w=1260",
-    alt: "Group of Horses Running",
-  },
-]; -->
 
 <!-- ex 4
 
