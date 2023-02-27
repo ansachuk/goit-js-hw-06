@@ -16,14 +16,20 @@ controlsInputRef.addEventListener("change", (e) => {
 });
 
 destroyElementsColectionBtnRef.addEventListener("click", destroyBoxes);
-createElementsColectionBtnRef.addEventListener("click", createBoxes);
+createElementsColectionBtnRef.addEventListener("click", createBoxesMarkup);
 
-function createBoxes() {
+function createBoxesMarkup() {
+  controlsInputRef.value = "";
+
+  return createBoxes(currentNumberOfElements);
+}
+
+function createBoxes(amount) {
   const boxesMarkup = [];
   let size = 20;
   const fullMarkup = [];
 
-  boxesMarkup.length = currentNumberOfElements;
+  boxesMarkup.length = amount;
 
   for (let el of boxesMarkup) {
     size += 10;
@@ -32,6 +38,7 @@ function createBoxes() {
   }
 
   destroyBoxes();
+  currentNumberOfElements = 0;
   return boxesDivRef.insertAdjacentHTML("afterbegin", `${fullMarkup.join("")}`);
 
   // const a = boxesMarkup
@@ -44,5 +51,7 @@ function createBoxes() {
 }
 
 function destroyBoxes() {
+  controlsInputRef.value = "";
+  currentNumberOfElements = 0;
   boxesDivRef.innerHTML = "";
 }
