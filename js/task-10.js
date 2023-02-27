@@ -31,6 +31,7 @@ function createBoxes() {
     fullMarkup.push(el);
   }
 
+  destroyBoxes();
   return boxesDivRef.insertAdjacentHTML("afterbegin", `${fullMarkup.join("")}`);
 
   // const a = boxesMarkup
